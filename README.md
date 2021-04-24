@@ -12,7 +12,7 @@ Response onset times (RTs) and voice-onset times (VOTs) were annotated manually 
 
 For each trial, sound signal is filtered and the wave form is then presented along with a spectrogram. The RTs and VOTs are computed from the manual annotation points. All relevant data is written into an excel file ready to be processed for statistical analysis.
 
-There is also an first attempt to implement a completely automatic version of the annotation script. The main idea was to identify salient landmarks based on auditory energy bursts and the zero-crossings rate. The idea was abandoned due to lack of time but was eventually realized in follow-up research https://ieeexplore.ieee.org/document/7905803
+There is also an first attempt to implement a completely automatic version of the annotation script. The main idea was to identify salient landmarks based on auditory energy bursts and the zero-crossings rate. This part of the code relies on the free MIRtoolbox (https://www.jyu.fi/hytk/fi/laitokset/mutku/en/research/materials/mirtoolbox). The idea was abandoned due to lack of time but was eventually realized in follow-up research https://ieeexplore.ieee.org/document/7905803
 
 ### Study background
 On each trial of the experiment, participants are presented with one of two symbols (## or **) and have to response as fast as possible by uttering a corresponding syllable (ta or ka). While a participant is initiating their voice response, an audio distractor is played over headphones, essentially slowing down the response. One research question was whether phonetic congruency between the response and the distractor would result in weaker slowdown.
