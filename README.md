@@ -1,5 +1,5 @@
 ## vot_distractor
-Matlab code controlling experimental flow of a dual-task speech-production study (https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2015/Papers/ICPHS0455.pdf).
+Matlab code controlling experimental flow of a dual-task speech-production study https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2015/Papers/ICPHS0455.pdf
 
 Although a Windows and a Linux version of the script is included, during set-up tests I discovered that the presentation of audio stimuli might vary by +/- 10 msec on Windows machines. This effectively rendered the reaction time data collected on a Windows machine unusable. Hence, the final experiment was conducted on a Linux Ubuntu laptop with an audio playback variance of +/- 1 msec.
 
